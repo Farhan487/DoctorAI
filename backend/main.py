@@ -21,7 +21,7 @@ app.add_middleware(
 model = joblib.load('models//disease_model.pkl')
 all_symptoms = joblib.load('models/symptoms_list.pkl')
 
-desc_df = pd.read_csv('data/symptom_description.csv')
+desc_df = pd.read_csv('data/symptom_Description.csv')
 prec_df = pd.read_csv('data/symptom_precaution.csv')
 
 
