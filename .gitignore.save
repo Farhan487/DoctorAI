@@ -1,0 +1,11 @@
+git add -f backend/models/disease_model.pkl
+git add -f backend/models/symptoms_list.pkl
+git commit -m "Add model files"
+git push origin main
+venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+frontend/.gitignore

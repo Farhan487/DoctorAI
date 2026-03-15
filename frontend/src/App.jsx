@@ -6,7 +6,7 @@ import SymptomSelector from './components/SymptomSelector';
 import AnalyzeButton from './components/AnalyzeButton';
 import ResultCard from './components/ResultCard';
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://doctorai-v467.onrender.com";
 
 
 const App = () => {
